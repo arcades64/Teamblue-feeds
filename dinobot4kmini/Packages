@@ -1,0 +1,2269 @@
+Package: base-files-dbg
+Version: 3.0.14-r89.5
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8bab9b8548310ba98868bc0e673d1e55
+SHA256sum: 114bb5c74a07469852559bdb4b6b1a66ff506c350bc3f4b028deea36a70d9893
+Size: 756
+Filename: base-files-dbg_3.0.14-r89.5_dinobot4kmini.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89.5
+Recommends: base-files (= 3.0.14-r89.5)
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 837b205d745e978d79beecd288f69051
+SHA256sum: 9fc345904562f1954b19e9bbb548a567f8282422e728852ff7ea187c578b3efb
+Size: 788
+Filename: base-files-dev_3.0.14-r89.5_dinobot4kmini.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89.5
+Section: doc
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b31190134038acc0513d03231fbe5679
+SHA256sum: b735fd945f2884d1f60283ee85dce83bba1f33f703dab8daa7f5de678addb20a
+Size: 870
+Filename: base-files-doc_3.0.14-r89.5_dinobot4kmini.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89.5
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00e51ecfef219a406ab4fee72c069e23
+SHA256sum: 36af05e2e1c5bd33afe3721f1262e64df47db63ee0e9bef5d17c880ae27587d8
+Size: 6036
+Filename: base-files_3.0.14-r89.5_dinobot4kmini.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-dbg
+Version: 7.2+git19914+ef83c3c-r0
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: f27f4d2a485c1dd38eb4b2d681447311
+SHA256sum: 33ea543f76a96a7c2ce8c6c6d05a216d904b8b30f32a21da2479f9f7fd56916a
+Size: 22998
+Filename: enigma2-dbg_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-dev
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, dinobot-libs-u53-dev, enigma2 (= 7.2+git19914+ef83c3c-r0), enigma2-fonts-dev, enigma2-plugin-font-wqy-microhei-dev, enigma2-plugin-skins-pax-v2-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libxcrypt-dev, libxml2-dev, libxmlccwrap-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-image-dev, python3-mime-dev, python3-mmap-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pyusb-dev, python3-shell-dev, python3-six-dev, python3-smtpd-dev, python3-threading-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-wifi-dev, python3-xml-dev, python3-zopeinterface-dev, tuxtxt-enigma2-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2f1e86ccb8955c226aaa598f8e9160f9
+SHA256sum: a702c076d9e0dafee35d9d2d6cf9e3a3ccd9bb0569f3e35eeec6194aeab7b80d
+Size: 125980
+Filename: enigma2-dev_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-fonts
+Version: 7.2+git19914+ef83c3c-r0
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: bf164ef3ac4d4df9d78f4d0176b1d1c8
+SHA256sum: 38cd4afb291b387a3311fc84299342c070c95da4bc2370e7978e010679b67b32
+Size: 805948
+Filename: enigma2-fonts_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 3d4aa60a5217228b5a804c5f7ca7a522
+SHA256sum: dd0b5674c611deb48816d446db66eb54a195b3a9dbb4f2c6b2c9381de0e35c34
+Size: 19488
+Filename: enigma2-locale-ar_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: dbd66fb50d8dcbc80db765005909f29f
+SHA256sum: aa7710937b1a9a7ddd15d923544d3176837f8ac0f212e540bc0c8d0c5e4ffdc8
+Size: 20256
+Filename: enigma2-locale-bg_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: dda1dd301ab32bbcfaf3e80a805ef6c4
+SHA256sum: 650e1d1fa2e722a46557f5d4f27c70169cd58f9ab62c2c89aa69211f1d1bf3bc
+Size: 10876
+Filename: enigma2-locale-ca_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1e4d6359f69f42106a35b9fe19c3f55b
+SHA256sum: 09ebbf9e981962fd630c7cd0e38c5840078110a34008498d37e3138ad22826ac
+Size: 49052
+Filename: enigma2-locale-cs_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-da
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: a0dd1c798eaf7fe2ff8f2acb39e04234
+SHA256sum: 3c85000ebdb58b75a72ecd92efaeff9edad53deea488d3b114dc3c06932f5fa6
+Size: 25760
+Filename: enigma2-locale-da_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-de
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: ebf19470b1c2eed5400973d48c9dc4ae
+SHA256sum: f45debb38dedeab0f49a7e0c47f4344a6726cd041e00fac01e76ec0f27b103d6
+Size: 109464
+Filename: enigma2-locale-de_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-el
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8b7153b245e83687e87334d998a7740f
+SHA256sum: 23818c92f387791ed6f57598d75f5784cd121c0bfa7d39c25aea3a14ea049156
+Size: 50840
+Filename: enigma2-locale-el_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-en
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 801208c6da5b5da29efd4da029c2fb75
+SHA256sum: 696d11b1e7fdf22d8dcdfc78e131f674ee5c61c51252e7ab5d7c7692a62d3db8
+Size: 1896
+Filename: enigma2-locale-en_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-es
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: a8d8233e315edd1d7acb1147acc268e5
+SHA256sum: f2379fce1982bd69484fbc0a639af36c5d2f5a4284d31094ffc56c18eb4c94db
+Size: 59024
+Filename: enigma2-locale-es_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-et
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b28993c04e1c4c7ecc70610f7f9eb124
+SHA256sum: 7e9f7c0ab5e5e63dd130ba948e9906d3eee7110597f7d0f78028aa83118cdae2
+Size: 39432
+Filename: enigma2-locale-et_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 93f98fec871a07410f7e76506526e161
+SHA256sum: bd8a8f2014df3f451efba2d1ef4804f814326cb92de731263fbca2714906e4f0
+Size: 17480
+Filename: enigma2-locale-fa_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1f997ea3b0c3530cbfff4d4c1ec7ca3c
+SHA256sum: 13ca97f6808cf27c9ea970fe0ae78ff6136bd59b6bfb75b12676eb7d18f6c2c7
+Size: 44076
+Filename: enigma2-locale-fi_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 63c4cecb7ade756f000a30e7084e9f4d
+SHA256sum: 464dd896db31eb13d785672a462a1c330927aa452d63c3016d8da42875d5eb23
+Size: 102516
+Filename: enigma2-locale-fr_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 49b6545005155e29f3bc235bbcc137d0
+SHA256sum: a734957beff6b9269f07343b10235b6afbf2d0ce4057161286d7cf246b2a0683
+Size: 15484
+Filename: enigma2-locale-fy_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-gl
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 09bd38434bd226c686c28d2f9ef41347
+SHA256sum: 16d3220ca4bb423b0f46aec925e7e94929144fe36a7d031b2f6503010f736287
+Size: 78996
+Filename: enigma2-locale-gl_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: gl
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-he
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b6bd5aa5a5667a1f478851eb949089ed
+SHA256sum: ef03e129f1978d78632b0f7302411ac2d0902ca01fdeff66c5c94a25d7981184
+Size: 15836
+Filename: enigma2-locale-he_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 5f5a6fe9e8ae71184eb78311ee2888c2
+SHA256sum: 21e12f136865e96ff3c67ca0c6aeb2e927e556474710c0bd320a127792f0d9ba
+Size: 11744
+Filename: enigma2-locale-hr_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: a8af04ff1e33c470498c7af977961047
+SHA256sum: aa5e40c12c61745352bc5aafd1a5d65e53cdf842ee015294742b9322999de930
+Size: 46896
+Filename: enigma2-locale-hu_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-id
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: e934c1a7ac06d94483644a1bfd95eefa
+SHA256sum: 5250ed3436fc06ab8ef38d2a89eb60a6bc77505569a1b1d111e1ad94c8e5eaa5
+Size: 42156
+Filename: enigma2-locale-id_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: id
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-is
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: efbff498459a9779e94354b051d15a1d
+SHA256sum: 6e54eb81bf107eaa7d8298dcce8f6be123e423780e3d895c4899096ecd2cf86d
+Size: 21712
+Filename: enigma2-locale-is_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-it
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 38a98acda436cd06faf9b71cdbb98f31
+SHA256sum: 690646ecfbda28d83eeb77a7ef7774b7b68ccfbfbc2a8200215cc6428b57dcfd
+Size: 96516
+Filename: enigma2-locale-it_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 282e63634ee03a1bef1e33bce00c9c26
+SHA256sum: e5a1a9bac8c2063d1474a5d73d1ae01bd23b36c00a567e2cc0ce5c543db38bd7
+Size: 27076
+Filename: enigma2-locale-ku_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 4755774426a3ba2f3d4f96ba605fee29
+SHA256sum: 54960c439d9652ce3dc7fa45369d5b23a5b64e5c1265adfe319c097cff2cb4fc
+Size: 23868
+Filename: enigma2-locale-lt_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: a9b5826c7a58b846386067582f356d8b
+SHA256sum: 62d2dc48a0a288ccf2a9107cfa4d74d9e6801cb2e40ec9c8f6421db177ffa5df
+Size: 44392
+Filename: enigma2-locale-lv_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-mk
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 5d777749e771c6348ce6601d0600a54e
+SHA256sum: 6ec0cc7c331583bb940446fe2d825452c23147bc8352bf994aa1943065270d73
+Size: 93756
+Filename: enigma2-locale-mk_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: mk
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 3dab8000e002c19cf92f831510927d8c
+SHA256sum: e7bac2a57f5c7665c43b20f4a7cd0c9426b71a6e3d17c6f5cffa834007b74f51
+Size: 49448
+Filename: enigma2-locale-nb_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 92eda4af3b31ebd1434df35c1294f22e
+SHA256sum: dc5b8e8aeb460903df8f3aded60546d26a357d82a6588ff47f34fec036ed2a3a
+Size: 49012
+Filename: enigma2-locale-nl_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-nn
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: f4a3fa4706815d93dd469da91acdff3d
+SHA256sum: 6baac5d2d4f6d843ac380b81638f0cae69d97ab134303e62e4720fef22cffe62
+Size: 41240
+Filename: enigma2-locale-nn_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: nn
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 7186ee6686687d9707e6ee4d4aff117b
+SHA256sum: e0fb816edf93a710ec62566fc225dd2c5cc20ed614d48c10f074df553490ea1c
+Size: 46560
+Filename: enigma2-locale-pl_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: ba0a792ef8ee5872b8ae6b43cad2b01f
+SHA256sum: 65e7664112eb5ccc8382cd237d788fb38f1533e599fafdd4eb192492f4c77b75
+Size: 41554
+Filename: enigma2-locale-pt-br_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: aadf7509015b5cbb25d8af9ca96bcd25
+SHA256sum: c6bf4598d5a4d612ca7f5af6d8f2fcdcc89557cf71f24ff81e941edb05b4b7e5
+Size: 39140
+Filename: enigma2-locale-pt_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b2c0b9f5436746bb5d0c155725780e58
+SHA256sum: a4553dfaba6fe75df8a68cad9a4b76fd34edfe98ba15250977a84d41be71771a
+Size: 16788
+Filename: enigma2-locale-ro_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2f84cd00216795f0e54bb229760ac5eb
+SHA256sum: e5123701c8c22a7c7530f8a6412caefcef4f0a69de75903d65526829febb92cc
+Size: 42312
+Filename: enigma2-locale-ru_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8f226c1a2548ce92c09bf82952d1872c
+SHA256sum: fdaa166b2d23cb2b0b7f669b26d053e5b3bef46b50cda0a661542c00d348569c
+Size: 23192
+Filename: enigma2-locale-sk_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1f4bcf16396af4a9afcdb3d2e7d7c3f7
+SHA256sum: 66f229dd8b6853eca85a3844f3d3b9331e55ff5816d0f0b9dfa21df793117620
+Size: 44424
+Filename: enigma2-locale-sl_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: d63d3385efcd343675783c526742abea
+SHA256sum: a46504357d513acad606f997e7a0ef590ede7239bc73e85dcd46f733ed8b50db
+Size: 21768
+Filename: enigma2-locale-sr_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: e075bb97eb4863f8ea668386cc33a45d
+SHA256sum: 71a60c06dc667b7e9fd01871dfcc7ca7844f8758ab923ca6eb9ddcfb7ed87acd
+Size: 42844
+Filename: enigma2-locale-sv_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-th
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 56ea70d4a669f421af18f411c25902e4
+SHA256sum: a9fb45e3161f04ab0a4468beb684775feb911f26d83f3996d3bc6baa8a38c588
+Size: 19988
+Filename: enigma2-locale-th_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 4c1a67841841259aa3d8c01697326878
+SHA256sum: 285f5180afdfdad6067c0d48ff731ed3131cd1f6ae1409f6d099ff579938443c
+Size: 111788
+Filename: enigma2-locale-tr_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: aeb334438253c9b45269b645116eedcd
+SHA256sum: df137a88c5c0bd7190bf721bb9f5ce134719c15c8a49f8352958a453ffcd2d50
+Size: 48648
+Filename: enigma2-locale-uk_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-vi
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 807d80df5c0ea768f5369b4a66090213
+SHA256sum: 84a7bcdce43a069976d5bcef63b7a5fcfcbef6d76aed8e7cf8874e3dccc4cf3b
+Size: 83836
+Filename: enigma2-locale-vi_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: vi
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-zh-cn
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: ae58b15b76e8675543be13a2f90ee7ab
+SHA256sum: bd93efb79b18227e81ffcdf7c098fb8beebc28b277c28681477a8cf98cde903e
+Size: 3094
+Filename: enigma2-locale-zh-cn_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: zh-cn
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-locale-zh-hk
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 7362df915b0523992dd1dec04f566085
+SHA256sum: 2773e5c2db8bfca1e192a47b8fe8129512641eb5964d2bf7425055ee87e1bd19
+Size: 1480
+Filename: enigma2-locale-zh-hk_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: zh-hk
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-meta
+Version: 7.2+git19914+ef83c3c-r0
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 004d8118b4506ea6c467a7cf35494b2f
+SHA256sum: 02c790a7fa1f7d6d691f134fabc84537253f8664b9a31e4385e21b0e3cb444ce
+Size: 3896
+Filename: enigma2-meta_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 16bd5d2a2bfe0afb055c9f028657a3ee
+SHA256sum: dc7f84999c2776644e05562c68bebe948e76a12b9a399d5e376ea3e696d2096f
+Size: 5552
+Filename: enigma2-plugin-extensions-cutlisteditor-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 7.2+git19914+ef83c3c-r0
+Depends: aio-grab, enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8c17d2fe3e47b1f5e6ec5eca7ac11fe7
+SHA256sum: 00fa3e814ced0c7b438ae5845e9e6e5d47a16835f350993607ab63a3d7460667
+Size: 13052
+Filename: enigma2-plugin-extensions-cutlisteditor_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 632deb170f95a948fb458419da545e90
+SHA256sum: 9433ce815c9861f42c358d6ac9a12e432235b3138461b54ac3d0f8aeae7d6aaa
+Size: 1886
+Filename: enigma2-plugin-extensions-dvdplayer-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Recommends: kernel-module-cdrom, kernel-module-sr-mod
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 514afebc283e694fbad7c461bd13ef45
+SHA256sum: f529d36c64dba4068d9e6b9b37a854ed38c225713667daf131f115b49e3efc8c
+Size: 3882
+Filename: enigma2-plugin-extensions-dvdplayer_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: e1fc757e156d6d969d0211c0e7834d88
+SHA256sum: bbf5183601572eb5bb83de11cb3433e94d335bd87245a3d89a14539089ad26ca
+Size: 39316
+Filename: enigma2-plugin-extensions-filecommander-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-filecommander (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2, python3-puremagic
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 925219e8e29bfdf23f7fc36c3d2835e3
+SHA256sum: ca2242fc78197f8af0a9675f87bda1f9397f5cab213d5235b6b2bef6e2f5eb39
+Size: 117458
+Filename: enigma2-plugin-extensions-filecommander_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-filecommander
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 41624847cf7c48dce59568681d402f33
+SHA256sum: dafc4abf92cec736c844780bae94d4b9e53233715d74840324ca8c0ee44d7082
+Size: 14612
+Filename: enigma2-plugin-extensions-graphmultiepg-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: c8469396e36683afb2e1cda67f6c7963
+SHA256sum: af2c0f024defa2d2e7eeadb79ba1134849ec6daeb6d1140f1db2dcaf3f8e10bc
+Size: 38390
+Filename: enigma2-plugin-extensions-graphmultiepg_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2ae8a0b0748971408bb35499b0f448d1
+SHA256sum: 39c095136499200a529d6c37d69fce855abe78b81e365b75da9e29a966cb843e
+Size: 11114
+Filename: enigma2-plugin-extensions-mediaplayer-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 804e6bda671ebbdfa1931b32f40ce0f7
+SHA256sum: 97ec01ffcc2e25053684a9327a01076783f8929f12591950ecd9a2847c7cc7c9
+Size: 32072
+Filename: enigma2-plugin-extensions-mediaplayer_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 866e65c1100a07cac5726793c723bf27
+SHA256sum: 9376a42ef521a045d26c6275bdcc0d8f423af18bbb89cba896cc21d388a67132
+Size: 1992
+Filename: enigma2-plugin-extensions-mediascanner-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2c76481f4559a18f98796b73e68ab34a
+SHA256sum: 1db7c68eacf954319ba61f13156399d0668dcb50d59b46b700b2456cfa8ea822
+Size: 6684
+Filename: enigma2-plugin-extensions-mediascanner_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8e77fc460f5232097ed2537335b848d7
+SHA256sum: d0f5c7cf0f8efb4a3d25217b5218a49ac6423224024ea73f9ffd96337784477d
+Size: 6216
+Filename: enigma2-plugin-extensions-pictureplayer-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 878c74ac0c099d590552805e793979d1
+SHA256sum: 1db6fa959b4ea99cc8ba5a6cb838317a55b1ea81c0564717cdf9ce6c517fcd2f
+Size: 19318
+Filename: enigma2-plugin-extensions-pictureplayer_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 940f94396cb1d543e513dd187b1de180
+SHA256sum: cc7758539255a3eacc620537c5353efab38bae189d4a5e7a9a233826bcda13e0
+Size: 9346706
+Filename: enigma2-plugin-extensions-socketmmi-dbg_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 42b57d9311993cc059f5b97e3d75280d
+SHA256sum: 6b88a091db8d4bdb5fa3d5ec5a7b56584052947c6cc10147390d4f33f49e0bd2
+Size: 1522
+Filename: enigma2-plugin-extensions-socketmmi-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: fc6297423c0abc0b6fb66ff56fbdb69d
+SHA256sum: c3048a9a206b333435dd4315e622d36117807bb5fe14ba25491bcb5e863e5777
+Size: 80844
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2, libc6 (>= 2.36), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0), libudfread0 (>= 1.0.0+git108+b3e6936), libxml2 (>= 2.9.14)
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9d9ab07ea3c22f8eb1b3f50bb398961a
+SHA256sum: 946a88bcd308a7eea46f4fb2bd0c981da2fe545de77ece71b0b39116b83c5c72
+Size: 9976
+Filename: enigma2-plugin-extensions-socketmmi_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 7.2+git19914+ef83c3c-r0
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 55021014a29dc6c22c70db4643b9b383
+SHA256sum: 080227cc1127721be44f60dd2514f3dc25235602a2d94ed4e2aa46772b1ec897
+Size: 1544934
+Filename: enigma2-plugin-font-wqy-microhei_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 42351cc8711bf6f1e961170590ec39b6
+SHA256sum: 7d01bdad314c6dea42373a5cf34a82e5165203e18dee54853d89cfc64ac809fa
+Size: 3912
+Filename: enigma2-plugin-systemplugins-cablescan-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 94eeb6102c48a020be09ed2c17236495
+SHA256sum: cbf350d6036818e8bf1bb0a10cd51752188eaa1ac082858db4869b25f00c2bc6
+Size: 9042
+Filename: enigma2-plugin-systemplugins-cablescan_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: a21910d1ac67fa98a8a10a88794633f2
+SHA256sum: 533769abeb038d5efc079b5443d21059b464057f58af1f4f3b0981806c863db1
+Size: 6204
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b194981df45602a1a29e933c1dacafba
+SHA256sum: 68e5ee206eff0d43f3f9562721ce0fe49e6f4e7d201749fc99a787154c036a92
+Size: 15798
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b859960839612ab2fc6a7ba368ec36ee
+SHA256sum: b3a1a49565029917c48d68381cdcf6c803865e0703fb171fd585a0495dd4e229
+Size: 2566
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 176efafe2907638b5ab3891fa0904765
+SHA256sum: 8d9be472068498ab734713c0aa3586c93ce4ca26e2141a75359f903d89b96eca
+Size: 4516
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-devicemanager-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 973a6d4f6b1ee112f83160eb8956bcea
+SHA256sum: d7f6c828faab76e015330e1550ce97e7bb75743d7a0e4dd3a15ceef6ea7e7e2f
+Size: 10872
+Filename: enigma2-plugin-systemplugins-devicemanager-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-devicemanager (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-devicemanager
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2b2ab510c44e8e9d674b0f4b7af669db
+SHA256sum: e40f14c4dbbbd7973a958b272119ad54a5974390bf847c2f3b98bc4d550051ae
+Size: 44816
+Filename: enigma2-plugin-systemplugins-devicemanager_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-devicemanager
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 6c1c5ea61119e3cc1a9c5214321da7e9
+SHA256sum: 3a7160bdb28550c393a54bcc1de9022646b5c5f4d8a2c8a99965d2dcd8c01e46
+Size: 6112
+Filename: enigma2-plugin-systemplugins-diseqctester-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: f268f732706dda1c0794fab61edd58e8
+SHA256sum: 198808e3b765f4f3e96c4c32392dbe8f7527e5a0dce5fa4b2a041759d5946597
+Size: 14400
+Filename: enigma2-plugin-systemplugins-diseqctester_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastchannelchange-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 798d045411a1808d245174238cc76a1d
+SHA256sum: dcce63d38b7fdc5d77db36b71ce6dd1dcad82664bf432725e5fb7ec5a76af601
+Size: 4892
+Filename: enigma2-plugin-systemplugins-fastchannelchange-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-fastchannelchange (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastchannelchange
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 5ddb08d54e4e9c1751f1c068529a350c
+SHA256sum: f94023d0c2277e26f6157740f262aa5ccf308dde11de2e119f529948dec56e09
+Size: 11788
+Filename: enigma2-plugin-systemplugins-fastchannelchange_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-fastchannelchange
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 5dd9e079f807a9e07e8e53c289678bcd
+SHA256sum: 398f8847717c99118e0924d16ec1ef5cae2771034b9c6575105b7f07e9a437fe
+Size: 4852
+Filename: enigma2-plugin-systemplugins-fastscan-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9c34ff299823bf3369d7a85cbb042e69
+SHA256sum: f89ed5a8a6d11cc900603b978c37148fef244e4fc38fa91db818cd447866a4b5
+Size: 12122
+Filename: enigma2-plugin-systemplugins-fastscan_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-gbaspectratioswitch-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: bfae70fce5f912694e722eb4e641ddc2
+SHA256sum: 0783a8e87b58caafff805c9dc4879b1d1aec2aae16c55a04f7753910feb52d1a
+Size: 3160
+Filename: enigma2-plugin-systemplugins-gbaspectratioswitch-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-gbaspectratioswitch (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-gbaspectratioswitch
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8a7499faceb2ab25fd37c8b3c6ee302f
+SHA256sum: b9e19ed22e8fabeb4ab8ca8d3c77cb39ddad98d75a6cb45b71f8d08fcc6059ad
+Size: 6442
+Filename: enigma2-plugin-systemplugins-gbaspectratioswitch_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-gbaspectratioswitch
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: e72c0154408dd34650185b2514a7228e
+SHA256sum: b830ceb7e54f3229da7d4908f01113bffb2492beef4a381d814dace897dd5a1e
+Size: 3260
+Filename: enigma2-plugin-systemplugins-hdmicec-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 8fdcb9dae192071d2258b4c4020b251b
+SHA256sum: 905a1f6dfac2314fd844c19679caf349b47f0a796e4e167f791b9b7638fc228a
+Size: 6300
+Filename: enigma2-plugin-systemplugins-hdmicec_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 708763afdcd8bfbac40c96a359c1158d
+SHA256sum: b0d4821977d5e686b78baf7575eb09b50d8b45cdbcc51cc144532de76b082dc9
+Size: 2048
+Filename: enigma2-plugin-systemplugins-hotplug-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2, hotplug-e2-helper
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 86814b6c049d1f86fa6302fd5430c272
+SHA256sum: 1bc196dd09718f7c82b1d943abab5c40d88cc25c82134ac64e30c76dc76ff796
+Size: 3734
+Filename: enigma2-plugin-systemplugins-hotplug_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 7d878b01c7bf1b49a811a9ef0653abe2
+SHA256sum: 57a649a67ff114351bed921a896f3780ae0e04f86a0c6cdc0d060722014c5d08
+Size: 4214
+Filename: enigma2-plugin-systemplugins-networkwizard-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 43a6f41aaa5012040fa1c71a0d96d25d
+SHA256sum: 9796b16c5e04eefc7a0c0615064c32c7638bb80d42f2846e0de8ec731fcbb950
+Size: 10580
+Filename: enigma2-plugin-systemplugins-networkwizard_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: d0f3cc1f780a0e42e7c9bda7b52fba8a
+SHA256sum: 8dccba96295a486b7c2b226ceb46425a5fe1832541f538632061887121a4c7fe
+Size: 2484
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: ee39e1d8de20f4aeecbad308ed795260
+SHA256sum: f4fff0ebd2fd81993ebd28355c23d21f1194735bf9105152189f84be77f1be77
+Size: 5268
+Filename: enigma2-plugin-systemplugins-osd3dsetup_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 811f97769cead8f493fde3e480d3e493
+SHA256sum: 06ccceae6646c4b3b51ecabf053a611d650c1817857a0a2080f96c660258314b
+Size: 3830
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9e616c792fe9ffb9956e41e18a452094
+SHA256sum: 8d953813a6d1a117b0a75f7742cd5fc946c84e25b0bc7756406eef78b2eb8532
+Size: 7566
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 36b1b2ab770a7a1964ccd8d8bc1720da
+SHA256sum: a808e83f5d3bb0f32bfa3933a7d29acba626cefeb3cde2b5ce0e083a41a8c453
+Size: 15244
+Filename: enigma2-plugin-systemplugins-positionersetup-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 40cd289db966c096e6195b6da761785e
+SHA256sum: 1966d94d4c95df2df13f653a1a3f14678c1828dff26ed6ebcf12067f8eccca21
+Size: 39160
+Filename: enigma2-plugin-systemplugins-positionersetup_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 57375ae2669f9830fd7146fd8f79e9ac
+SHA256sum: c247faa25c06b4d9e07ba2dab88e36b218ab0902675a6b16f49aad8696c3d022
+Size: 2096
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b8f9632ef33f2a3e5f6bfc68ad50d7bb
+SHA256sum: 04efae772304f82906f02e5e23315b658e0101b95de932b3f8e28c006e66557b
+Size: 3776
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 687a23692e05317a7dc7367ab71d7a72
+SHA256sum: 283e7d4aed8ab633ae1b9ed157321eb9be888588c903b46f5db835e016c32483
+Size: 6074
+Filename: enigma2-plugin-systemplugins-satfinder-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 055e50e9a6d1e570d1ce3a543cd3eb97
+SHA256sum: 2d15b686cc7f9e1cb9b487df760de99cd6daf4a3baf52c9eddad1a9b80eb5b4c
+Size: 13950
+Filename: enigma2-plugin-systemplugins-satfinder_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softcamstartup-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: bc818f064a463644b58709337b642c4d
+SHA256sum: 4d8df7cbb0299ccb54e558fa02f8c3d4e05e9a50e1fc0581d350ff4b97352a28
+Size: 3426
+Filename: enigma2-plugin-systemplugins-softcamstartup-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-softcamstartup (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softcamstartup
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9663c490248d94e20171465eee173ca4
+SHA256sum: 4afbf5775e20108d6e4fb27840809bcaa7872ec3b2f57dcf1d3e940e2cf0ca5b
+Size: 7622
+Filename: enigma2-plugin-systemplugins-softcamstartup_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-softcamstartup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 145aadf1bcd3d5f3a445c43931e52c88
+SHA256sum: ebac4c7b7555592200971c732a2fd86189849dbd19fd48ffef624b05282a5e73
+Size: 35330
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2, python3-twisted-web
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1e8b432f81f5b1faddadf86a70543bcb
+SHA256sum: 0ad9e5f95be61e6e003d41160b84e84f7cb8eebb4250553c3ab2135aae927d88
+Size: 111498
+Filename: enigma2-plugin-systemplugins-softwaremanager_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-swapmanager-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9540a808d513265c151fa971114f6f59
+SHA256sum: 621a0b0af450d36ad993b6dcdaaa86c755931da2d46b43f8ebc72d5a1e749ff6
+Size: 4160
+Filename: enigma2-plugin-systemplugins-swapmanager-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-swapmanager (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-swapmanager
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 33c3b62edf83958920aa42f2b9087301
+SHA256sum: cb049a2972a42b6bc2c91be7bd6f83015d38e52035f29972b3c2e78eafbf05fe
+Size: 9784
+Filename: enigma2-plugin-systemplugins-swapmanager_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-swapmanager
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: d31da83263b248c49328b5321aaaf838
+SHA256sum: 3a200d0420a6826e7a2286b23328e3f9a66d3d2a4cb8db58a656331c2d3fb1b2
+Size: 2196
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: d22917cc51f14a016aba14dd3f6c263c
+SHA256sum: 93d4d16b55f7267b362270753af4dfb4cc161e9bb538af668f1251b83d2ac879
+Size: 4346
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: d878db4d8617a6d538fdc42283177375
+SHA256sum: 5de52fdc116400d58eecc1992b00bde26418c3f95a191ebf364a6652fb0ff378
+Size: 5594
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1efb3ee2008d8443ccd037a12ef73e43
+SHA256sum: 05d346c8bb101a0d62a545817f52ac8440ad84ce4a9d667761aebd55d0e384cb
+Size: 13856
+Filename: enigma2-plugin-systemplugins-videoenhancement_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b12b72ff66d8d3c57d4c1e2932a4cf86
+SHA256sum: 32b330004e4c265243d9abc27e0ac7eb503b0691a3d2a4f23b5656d1de1c8e13
+Size: 8906
+Filename: enigma2-plugin-systemplugins-videomode-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 7d5362a18c8a7af882d7acb615b17918
+SHA256sum: 0372bb026fd976b36425c83c6b6d26d462c3034911520c7ffc3101a11b674b3f
+Size: 66610
+Filename: enigma2-plugin-systemplugins-videomode_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b2208a0d1a9baa62abdd68da3f28d8de
+SHA256sum: 1ddc7a41e209a61e98d60e1f61d061d452c3f4a1c786661a27965ff9dd728173
+Size: 4458
+Filename: enigma2-plugin-systemplugins-videotune-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b97d4b0e8f3180a64fc78ea38995732a
+SHA256sum: ab058eec0dd92af6c867b9be4e4c9eb6a5a2a27c5f4be1a4318183535d7be6c2
+Size: 69524
+Filename: enigma2-plugin-systemplugins-videotune_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 1e4bc9ea3315222697790c72d09a9f47
+SHA256sum: e03d5254d32cb56e5de363672f31100e38b3cf3ed9bf5bcb261c88a7ebecd868
+Size: 7494
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (source files)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2, python3-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 2f157a20f5e45c839cebfa3bfebc452f
+SHA256sum: b5ead38d7412dfd27d50daede2736482e2ff7e51f8ee7183c9a0df3e1492c7b3
+Size: 18120
+Filename: enigma2-plugin-systemplugins-wirelesslan_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-po
+Version: 7.2+git19914+ef83c3c-r0
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 9cd26f870f02357cdd5465dd90ca7b07
+SHA256sum: 59364e5cda1308ed5320f373968c9062990eabee2d07d9fdb20391277ea18668
+Size: 1373812
+Filename: enigma2-po_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-src
+Version: 7.2+git19914+ef83c3c-r0
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 09b2726f2c7687493ecab672ddf2857a
+SHA256sum: 01ad8e3281a97d22dd65861269d94ec610b9067abd3d3af8cb51d67c934cdded
+Size: 424912
+Filename: enigma2-src_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 7.2+git19914+ef83c3c-r0
+Depends: enigma2-dev (= 7.2+git19914+ef83c3c-r0)
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: b4e8008c912826f2fb33c29e85762ea6
+SHA256sum: a483f24f0241116faf85fd7846c89509c45079fbd4301a457db53972251ba3b7
+Size: 6578
+Filename: enigma2-staticdev_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2
+Version: 7.2+git19914+ef83c3c-r0
+Depends: alsa-conf, dinobot-libs-u53, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-skins-pax-v2, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.20.4), hotplug-e2-helper, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.36), libcrypt2 (>= 4.4.30), libcrypto3 (>= 3.0.7), libdreamdvd0 (>= 1.0+git218+8de792e), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.11.0), libfribidi0 (>= 1.0.12), libgcc1 (>= 12.2.0), libgif7 (>= 5.2.1), libglib-2.0-0 (>= 2.74.1), libgomp1 (>= 12.2.0), libjpeg62 (>= 2.1.4), libpng16-16 (>= 1.6.38), libpython3.11-1.0 (>= 3.11.0), libsigc-2.0-0 (>= 2.10.7), libssl3 (>= 3.0.7), libstdc++6 (>= 12.2.0), libtuxtxt0 (>= 2.0+git82+1402795), libtuxtxt32bpp0 (>= 2.0+git82+1402795), libudfread0 (>= 1.0.0+git108+b3e6936), libxml2 (>= 2.9.14), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-smtpd, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-xml, python3-zopeinterface
+Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 24f02b6b4ffedd9f343ea40154cdbf49
+SHA256sum: 7f52d20eb4671285c783f6d81cb1610d500c23a6079148af3bf814c06dbf0709
+Size: 2734744
+Filename: enigma2_7.2+git19914+ef83c3c-r0_dinobot4kmini.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+Package: oe-alliance-base-dbg
+Version: 7.2-r2
+Recommends: avahi-daemon-dbg, bash-dbg, cronie-dbg, dosfstools-dbg, dropbear-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-resize2fs-dbg, e2fsprogs-tune2fs-dbg, early-configure-dbg, edid-decode-dbg, libavahi-client-dbg, libcrypto-compat-0.9.7-dbg, libcrypto-compat-1.0.0-dbg, libxcrypt-compat-dbg, llmnrd-dbg, minilocale-dbg, modutils-loadscript-dbg, mtools-dbg, nmap-dbg, ntpdate-dbg, oe-alliance-branding-dbg, oe-alliance-enigma2-dbg, oe-alliance-remote-dbg, opkg-dbg, p7zip-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, partitions-by-name-dbg, python3-numbers-dbg, python3-puremagic-dbg, python3-twisted-protocols-dbg, rc-local-dbg, sdparm-dbg, tzdata-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, vsftpd-dbg, wget-dbg, wireless-tools-dbg
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b1136744b5b619f828c663af0979596c
+SHA256sum: 69f0bc592d09eb664e984a280a1d2828e96d8ed2dd50feb87c27c4c04f6e41b6
+Size: 1012
+Filename: oe-alliance-base-dbg_7.2-r2_dinobot4kmini.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Debugging files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base-dev
+Version: 7.2-r2
+Recommends: avahi-daemon-dev, bash-dev, cronie-dev, dosfstools-dev, dropbear-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, e2fsprogs-resize2fs-dev, e2fsprogs-tune2fs-dev, early-configure-dev, edid-decode-dev, libavahi-client-dev, libcrypto-compat-0.9.7-dev, libcrypto-compat-1.0.0-dev, libxcrypt-compat-dev, llmnrd-dev, minilocale-dev, modutils-loadscript-dev, mtools-dev, nmap-dev, ntpdate-dev, oe-alliance-base (= 7.2-r2), oe-alliance-branding-dev, oe-alliance-enigma2-dev, oe-alliance-remote-dev, opkg-dev, p7zip-dev, packagegroup-base-dev, packagegroup-core-boot-dev, partitions-by-name-dev, python3-numbers-dev, python3-puremagic-dev, python3-twisted-protocols-dev, rc-local-dev, sdparm-dev, tzdata-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, vsftpd-dev, wget-dev, wireless-tools-dev
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 582e947c5efe90ef0f9e55966aff256c
+SHA256sum: 973b56120002869545fb0237a5773adbe40e034f7772ea625575af76f071896f
+Size: 1032
+Filename: oe-alliance-base-dev_7.2-r2_dinobot4kmini.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Development files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base
+Version: 7.2-r2
+Depends: avahi-daemon, bash, cronie, dosfstools, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-resize2fs, e2fsprogs-tune2fs, early-configure, edid-decode, libavahi-client, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, libxcrypt-compat, llmnrd, minilocale, modutils-loadscript, mtools, nmap, ntpdate, oe-alliance-branding, oe-alliance-enigma2, oe-alliance-remote, opkg, p7zip, packagegroup-base, packagegroup-core-boot, partitions-by-name, python3-numbers, python3-puremagic, python3-twisted-protocols, rc-local, sdparm, tzdata, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, vsftpd, wget, wireless-tools
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30504d2a30f33aace2915b623a3d8670
+SHA256sum: dc50993edd3fd3a80afa958e845259f0adb159bd1aaa4a2ca16d6d707b523c05
+Size: 990
+Filename: oe-alliance-base_7.2-r2_dinobot4kmini.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image.
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 7.2+git1136+b9bb97e-r20230430-dinobot4kmini
+Recommends: glibc-dbg
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: oe-alliance team
+MD5Sum: 96202fa2cf31793f84b72b8e7e2159f9
+SHA256sum: bf48ea1ca94b01b1023a2b71ba201c17481f999f89b2e7d143c6c85f644777fb
+Size: 72314
+Filename: oe-alliance-branding-dbg_7.2+git1136+b9bb97e-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 7.2+gitAUTOINC+b9bb97e021-r20230430-dinobot4kmini - Debugging files
+OE: oe-alliance-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 7.2+git1136+b9bb97e-r20230430-dinobot4kmini
+Recommends: glibc-dev, oe-alliance-branding (= 7.2+git1136+b9bb97e-r20230430-dinobot4kmini), python3-dev
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: oe-alliance team
+MD5Sum: bf440990d971990dc067ed4f33c8e3a0
+SHA256sum: f6c2e97f7f64f6334fb0478a66894b3aebc4da5a67910d14baf9ea5ebaecc4ad
+Size: 750
+Filename: oe-alliance-branding-dev_7.2+git1136+b9bb97e-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 7.2+gitAUTOINC+b9bb97e021-r20230430-dinobot4kmini - Development files
+OE: oe-alliance-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 7.2+git1136+b9bb97e-r20230430-dinobot4kmini
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: oe-alliance team
+MD5Sum: 471fee85c7c25b03605cb305a2a671ca
+SHA256sum: fd1106820d15ea50d0f704dfd55a6233fcfd6f1a061bb5f5ce0c25558d3bb5f2
+Size: 3970
+Filename: oe-alliance-branding-src_7.2+git1136+b9bb97e-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 7.2+gitAUTOINC+b9bb97e021-r20230430-dinobot4kmini - Source files
+OE: oe-alliance-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 7.2+git1136+b9bb97e-r20230430-dinobot4kmini
+Depends: libc6 (>= 2.36)
+Section: base
+Architecture: dinobot4kmini
+Maintainer: oe-alliance team
+MD5Sum: f870f745dce74ffcadeb79de27bbb074
+SHA256sum: 9811202ede7e070a21d9635c0c9ce1053eaa11c46530c32932786f33a6235c60
+Size: 221916
+Filename: oe-alliance-branding_7.2+git1136+b9bb97e-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 7.2+gitAUTOINC+b9bb97e021-r20230430-dinobot4kmini
+OE: oe-alliance-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b342115926f8799286ecefb0fbf69815
+SHA256sum: 1e58d3cba3f27fd956d2de56ad8dc86817a9007d6b0cbedcbd8b43a1d8199f63
+Size: 706
+Filename: oe-alliance-feeds-configs-dbg_1.0-r2_dinobot4kmini.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: oe-alliance-feeds-configs
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dev
+Version: 1.0-r2
+Recommends: oe-alliance-feeds-configs (= 1.0-r2)
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8526599243f25a151cc115712c875272
+SHA256sum: 105fb266600d4ecf3cb53480993032f5c8aeca0a36bd02c40d1f1d320b3ba7f4
+Size: 738
+Filename: oe-alliance-feeds-configs-dev_1.0-r2_dinobot4kmini.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: oe-alliance-feeds-configs
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-feeds-configs
+Version: 1.0-r2
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9e070687a29e36a698713a7e91d5227
+SHA256sum: b9d0a09f97816728b7ccc568124c54ab35d0c3b8b294e380ec46760949d7a574
+Size: 1090
+Filename: oe-alliance-feeds-configs_1.0-r2_dinobot4kmini.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: oe-alliance-feeds-configs
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote-dbg
+Version: 7.2+git116+a711695-r20230430-dinobot4kmini
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 871661123ff6ef4d835492351f2f6f8f
+SHA256sum: 4a253f4953ec310e913ab43f8bd900d018a71211f5e19965fb447c85c6e44de0
+Size: 716
+Filename: oe-alliance-remote-dbg_7.2+git116+a711695-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 7.2+gitAUTOINC+a711695a58-r20230430-dinobot4kmini - Debugging files
+OE: oe-alliance-remote
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote-dev
+Version: 7.2+git116+a711695-r20230430-dinobot4kmini
+Recommends: oe-alliance-remote (= 7.2+git116+a711695-r20230430-dinobot4kmini)
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 651538c060054ee7c398004b0efb38f7
+SHA256sum: 79a9e9a09a0f7cc23af05aaff13e439c8de9e030d74003920642daabac894444
+Size: 754
+Filename: oe-alliance-remote-dev_7.2+git116+a711695-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 7.2+gitAUTOINC+a711695a58-r20230430-dinobot4kmini - Development files
+OE: oe-alliance-remote
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: oe-alliance-remote
+Version: 7.2+git116+a711695-r20230430-dinobot4kmini
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Alliance
+MD5Sum: 576a4af54e5eafc8c46436bd3e75e86d
+SHA256sum: 64b430915ad47feadbe444c7bad7e3f4d735b60882e887ed0629dff44c869309
+Size: 135822
+Filename: oe-alliance-remote_7.2+git116+a711695-r20230430-dinobot4kmini_dinobot4kmini.ipk
+Source: oe-alliance-remote.bb
+Description: oe-alliance-remote version 7.2+gitAUTOINC+a711695a58-r20230430-dinobot4kmini
+OE: oe-alliance-remote
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 927433c9fc046cd026bc7eff69e57f20
+SHA256sum: 35d9d8581a164e59a0ba02d142e4dbe9f74e6a4ab160b2fe51d2e24078914f3d
+Size: 714
+Filename: opkg-arch-config-dbg_1.0-r1_dinobot4kmini.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Recommends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c0b534b03ef7f46b2d9e951bd53ed45
+SHA256sum: 43957f071d620bac77ea678dc66aab5e668f105366309b0ab0495f2b02be3660
+Size: 746
+Filename: opkg-arch-config-dev_1.0-r1_dinobot4kmini.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: dinobot4kmini
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6de6fdb01ae9494fe473af6b59d3a82
+SHA256sum: 2c0931c0cd84d3f5f59acff64f15fd956ffbe5a7a8d15b178d4c3c8d904e4eed
+Size: 934
+Filename: opkg-arch-config_1.0-r1_dinobot4kmini.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: teamblue-bootlogo-dbg
+Version: 7.2-r4
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: teamBlue
+MD5Sum: 108abf70f1c1fea4ee9a1d7c5a43edff
+SHA256sum: a37c216a36b5e04d3bcf405732f916632fa4eae5b933b2b9af8e5c4432187390
+Size: 642
+Filename: teamblue-bootlogo-dbg_7.2-r4_dinobot4kmini.ipk
+Source: teamblue-bootlogo.bb
+Description: teamBlue bootlogo - Debugging files
+OE: teamblue-bootlogo
+License: GPL-2.0-or-later
+Priority: required
+
+Package: teamblue-bootlogo-dev
+Version: 7.2-r4
+Recommends: initscripts-dev, showiframe-dev, teamblue-bootlogo (= 7.2-r4), update-rc.d-dev
+Section: devel
+Architecture: dinobot4kmini
+Maintainer: teamBlue
+MD5Sum: 1e299266fb53fb435c20afc730aa4e22
+SHA256sum: 71a7180701af546cc698149baa14c5ebeac1162bf1df3f1c32579c978061b514
+Size: 710
+Filename: teamblue-bootlogo-dev_7.2-r4_dinobot4kmini.ipk
+Source: teamblue-bootlogo.bb
+Description: teamBlue bootlogo - Development files
+OE: teamblue-bootlogo
+License: GPL-2.0-or-later
+Priority: required
+
+Package: teamblue-bootlogo
+Version: 7.2-r4
+Depends: showiframe
+Recommends: update-rc.d
+Section: base
+Architecture: dinobot4kmini
+Maintainer: teamBlue
+MD5Sum: 826349c1f10b5af915221a8b9aaf56a2
+SHA256sum: 5965124c744b7388192381882445a9443e002c2e51f3e2f60fca04e385002148
+Size: 144156
+Filename: teamblue-bootlogo_7.2-r4_dinobot4kmini.ipk
+Source: teamblue-bootlogo.bb
+Description: teamBlue bootlogo
+OE: teamblue-bootlogo
+License: GPL-2.0-or-later
+Priority: required
+
+Package: teamblue-version-info
+Version: 7.2-0
+Section: base
+Architecture: dinobot4kmini
+Maintainer: teamBlue
+MD5Sum: b6250d08abc93b4620103f135fc9ac03
+SHA256sum: bec084e9be9969a500d5c1a6c28804562f3152d7298976488c3e5da17c5fbb59
+Size: 1178
+Filename: teamblue-version-info_7.2-0_dinobot4kmini.ipk
+Source: teamblue-version-info.bb
+Description: teamBlue version info
+OE: teamblue-version-info
+License: GPL-2.0-or-later
+Priority: required
+
